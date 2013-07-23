@@ -15,9 +15,9 @@
 """Easy creation of mock Marconi queue ."""
 
 
-def queue(name,metadata,href=None):
+def queue(name, metadata, href=None):
     return {
-            'name': name,
-            'metadata': metadata,
-            'href' : href
-           }
+        'name': name,
+        'metadata': metadata,
+        'href': href
+    }
